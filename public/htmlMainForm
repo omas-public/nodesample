@@ -1,0 +1,19 @@
+<div class="main-form">
+  <form method="post" action="/">
+    <div>
+      <label>名前：<input type="text" name="name" size="20"></label>
+    </div>
+    <div>
+      生年月日：
+      <label><input type="text" name="year" size="5">年</label>
+      <label><input type="text" name="month" size="3">月</label>
+      <label><input type="text" name="day" size="3">日</label>
+    </div>
+    <div>
+      性別：
+      <label><input type="radio" name="sex" value="male">男</label>
+      <label><input type="radio" name="sex" value="female">女</label>
+    </div>
+    <input type="submit" value="占う">
+  </form>
+</div>
